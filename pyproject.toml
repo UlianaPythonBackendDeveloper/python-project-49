@@ -1,0 +1,20 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+
+
+[project.scripts]
+brain_games = "brain_games.scripts.brain_games:main"
+
+[project.gui-scripts]
+brain-games = "brain_games.scripts.brain_games:main"
