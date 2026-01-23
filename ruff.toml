@@ -1,0 +1,7 @@
+line-length = 120
+# Настройки линтинга
+select = ["ALL"]
+[lint]
+select =["ALL"]
+[format]
+quote-style = "double"
