@@ -4,6 +4,7 @@ Version: 0.2.0
 Summary: Add your description here
 Requires-Python: >=3.13
 Description-Content-Type: text/markdown
+Requires-Dist: asciinema>=2.4.0
 Requires-Dist: prompt>=0.4.1
 
 ### Hexlet tests and linter status:

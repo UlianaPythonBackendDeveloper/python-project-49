@@ -22,3 +22,21 @@ format:
 test: lint brain-games
 
 .PHONY: install brain-games build package-install lint lint-fix format test
+## Демо игры
+
+```bash
+$ brain-even
+Welcome to the Brain Games!
+May I have your name? Анна
+Hello, Анна!
+Answer "yes" if the number is even, otherwise answer "no".
+Question: 15
+Your answer: no
+Correct!
+Question: 7
+Your answer: no
+Correct!
+Question: 4
+Your answer: yes
+Correct!
+Congratulations, Анна!

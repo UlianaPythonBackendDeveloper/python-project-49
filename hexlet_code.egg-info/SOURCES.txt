@@ -3,6 +3,7 @@ pyproject.toml
 brain_games/__init__.py
 brain_games/cli.py
 brain_games/scripts/__init__.py
+brain_games/scripts/brain_even.py
 brain_games/scripts/brain_games.py
 hexlet_code.egg-info/PKG-INFO
 hexlet_code.egg-info/SOURCES.txt
