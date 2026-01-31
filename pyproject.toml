@@ -5,8 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "asciinema>=2.4.0",
-    "prompt>=0.4.1",
 ]
 
 [build-system]
@@ -26,3 +24,6 @@ brain_games = "brain_games.scripts.brain_games:main"
 
 [project.gui-scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main" 

@@ -1,2 +1,0 @@
-asciinema>=2.4.0
-prompt>=0.4.1
