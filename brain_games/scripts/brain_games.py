@@ -1,9 +1,10 @@
 # ruff: noqa: F401
-from brain_games.cli import welcome_user # noqa: PYL-E1101
+from brain_games.cli import welcome_user
+
 
 def main():
     welcome_user()
-    
+
     if __name__ == '__main__':
         main()
 
