@@ -4,4 +4,6 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=UlianaPythonBackendDeveloper_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UlianaPythonBackendDeveloper_python-project-49)
 
 
-https://asciinema.org/a/f5fiuSRHAotzjtYc
+[![brain_even demo]](https://asciinema.org/a/f5fiuSRHAotzjtYc)
+
+[![brain-calc demo]](https://asciinema.org/a/L7I07nWmyZyjfuqr)
