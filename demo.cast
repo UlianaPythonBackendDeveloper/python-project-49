@@ -1,8 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/UlianaPythonBackendDeveloper/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/UlianaPythonBackendDeveloper/python-project-49/actions)
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=UlianaPythonBackendDeveloper_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UlianaPythonBackendDeveloper_python-project-49)
-
 {"version": 2, "width": 72, "height": 14, "timestamp": 1773297598, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
 [0.047755, "o", "\u001b[?2004h\u001b]0;uliana@uliana-VMware-Virtual-Platform: ~/python-project-49\u0007\u001b[01;32muliana@uliana-VMware-Virtual-Platform\u001b[00m:\u001b[01;34m~/python-project-49\u001b[00m$ "]
 [10.728433, "o", "p"]
