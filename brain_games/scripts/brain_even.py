@@ -9,26 +9,29 @@ def is_even(number):
     return number % 2 == 0
 
 
-def brain_even():
+def main():
     name = welcome_user()
-    print(DESCTRIPTION)
-    
-    correct_answers = 0
-    
+    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
+
+    correct_answers = 0 
+
     while correct_answers < 3:
         question = random.randint(1, 100)
+        correct_answer = 'yes' if is_even(question) else 'no'
+
         print(f"Question: {question}")
-        answer = prompt.string("You anwser: ").lower()
-        
-        if answer == correct_answers:
+        user_answer = prompt.string("Your answer: ").lower().strip()
+
+        if user_answer ==  correct_answer:
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answers}'.")
+            print(f"'{user_answer}' is wrong answer; (. ")
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            return
-        
-        print(f"Congratulations,{name}!")
-        
+            break
+    if correct_answers == 3:
+        print(f"Congratulations, {name}!")
+     
 if __name__ == '__main__':
-    brain_even()
+    main()
