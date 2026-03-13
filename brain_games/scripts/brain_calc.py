@@ -10,7 +10,7 @@ def get_expression():
     number2 = random.randint(1,25)
     operation = random.choice(['+','-','*'])
 
-    question = f"{number1},{operation},{number2}"
+    question = f"{number1} {operation} {number2}"
 
     if operation == '+':
         correct = number1 + number2
@@ -36,7 +36,7 @@ def main():
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{user_answer}' is wrong answer;  (. ", end="")
+            print(f"'{user_answer}' is wrong answer  (. ", end="")
             print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break

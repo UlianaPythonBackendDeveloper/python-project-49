@@ -13,4 +13,4 @@
 **Что нужно вычислить:** `35 + 16`
 
 **Запуск:** `python3 -m brain_games.scripts.brain_calc`
-[![brain-calc demo]](https://asciinema.org/a/L7I07nWmyZyjfuqr)
+[![brain-calc demo]](https://asciinema.org/a/9ZCi8S32gnkYWFWx)
