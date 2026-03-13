@@ -27,3 +27,8 @@
 
 **Запуск:** `python3 -m brain_games.scripts.brain_progression`
 [![brain-progression demo]](https://asciinema.org/a/92RAZC1O8MenwsfU)
+
+## brain_prime
+**Задача:** Это простое число
+**Запуск:** `python3 -m brain_games.scripts.brain_prime`
+[![brain-prime demo]](https://asciinema.org/a/4q7LuYdTOV6aH056)
