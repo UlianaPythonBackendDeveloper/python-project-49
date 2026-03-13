@@ -21,3 +21,9 @@
 
 **Запуск:** `python3 -m brain_games.scripts.brain_gcd`
 [![brain-gcd demo]](https://asciinema.org/a/RYSXYk7yH0ogayCc)
+## brain-progression
+
+**Задача:** Найти пропущенное число в арифметической прогрессии
+
+**Запуск:** `python3 -m brain_games.scripts.brain_progression`
+[![brain-progression demo]](https://asciinema.org/a/92RAZC1O8MenwsfU)
