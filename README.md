@@ -4,7 +4,8 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=UlianaPythonBackendDeveloper_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UlianaPythonBackendDeveloper_python-project-49)
 
 ## brain_even
-** Что нужно вычислить:** ``
+** Что нужно вычислить:** ` 1 четное число? Да или нет. 73 четное число? 25 четное число?`
+** Запуск: ** `python3 -m brain_games.scripts.brain_even`
 [![brain_even demo]](https://asciinema.org/a/f5fiuSRHAotzjtYc)
 
 
@@ -14,3 +15,9 @@
 
 **Запуск:** `python3 -m brain_games.scripts.brain_calc`
 [![brain-calc demo]](https://asciinema.org/a/9ZCi8S32gnkYWFWx)
+## brain-gcd
+
+**Задача:** Найти НОД двух чисел
+
+**Запуск:** `python3 -m brain_games.scripts.brain_gcd`
+[![brain-gcd demo]](https://asciinema.org/a/RYSXYk7yH0ogayCc)

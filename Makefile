@@ -4,14 +4,14 @@ brain-games:
 	uv run brain-games
 
 brain_even:
-	uv brain_even
+	uv  run brain_even
 
 brain_calc:
-	uv brain_calc
+	uv run  brain_calc
 
 brain_gcd:
-	uv brain_gcd
-	
+	uv run brain_gcd
+
 build:
 	uv build
 
