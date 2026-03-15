@@ -2,7 +2,7 @@ import random
 from brain_games.cli import welcome_user 
 
 
-def gcd(a,b):
+def gcd(a, b):
     while b != 0:
         a, b = b,a % b
     return a
@@ -23,7 +23,7 @@ def main():
     correct_answers = 0 
 
     while correct_answers < 3:
-        correct_answer,question = get_gcd_questions()
+        correct_answer, question = get_gcd_questions()
         print(f"Question: {question}")
         user_answer  = input("You answer: ")
 
@@ -37,6 +37,7 @@ def main():
             break
     if correct_answers == 3:
         print(f"Congratulations, {name}!")
+        
 
 if __name__ == '__main__':
     main()

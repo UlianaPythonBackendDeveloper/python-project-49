@@ -5,9 +5,9 @@ DESCRIPTION = "What number is missing in the progression?"
 
 
 def generate_progression():
-    length = random.randint(5,10)
-    start = random.randint(1,50)
-    step = random.randint(2,10)
+    length = random.randint(5, 10)
+    start = random.randint(1, 50)
+    step = random.randint(2, 10)
 
     missing_idx = random.randint(0, length -1)
 
@@ -45,6 +45,7 @@ def main():
 
     if correct_answers == 3:
         print(f"Congratulations, {name}!")
+        
 
 if __name__ == '__main__':
     main()
