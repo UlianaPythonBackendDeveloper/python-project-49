@@ -44,7 +44,6 @@ def main():
 
         if correct_answers == 3:
             print(f"Congratulations, {name}!")
-            
 
 
 if __name__ == '__main__':

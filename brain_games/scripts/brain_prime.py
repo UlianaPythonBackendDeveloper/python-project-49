@@ -3,7 +3,9 @@ from brain_games.cli import welcome_user
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def is_prime(n):
+    
     if n < 2:
         return False
     for i in range(2, int(n**0.5) + 1):
@@ -39,6 +41,7 @@ def main():
             break
     if correct_answers == 3:
         print(f"Congratulations, {name}!")
+
 
 if __name__ == '__main__':
     main()

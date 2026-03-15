@@ -23,7 +23,7 @@ def main():
         print(f"Question: {question}")
         user_answer = prompt.string("You answer: ").lower().strip()
 
-        if user_answer ==  correct_answer:
+        if user_answer == correct_answer:
             print("Correct!")
             correct_answers += 1
         else:
@@ -33,7 +33,7 @@ def main():
             break
     if correct_answers == 3:
         print(f"Congratulations, {name}!")
-        
+
      
 if __name__ == '__main__':
     main()

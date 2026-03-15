@@ -9,7 +9,7 @@ def generate_progression():
     start = random.randint(1, 50)
     step = random.randint(2, 10)
 
-    missing_idx = random.randint(0, length -1)
+    missing_idx = random.randint(0, length - 1)
 
     progression = []
     for i in range(length):
@@ -45,7 +45,7 @@ def main():
 
     if correct_answers == 3:
         print(f"Congratulations, {name}!")
-        
+
 
 if __name__ == '__main__':
     main()
