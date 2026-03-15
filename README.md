@@ -1,7 +1,16 @@
+# Brain_games
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/UlianaPythonBackendDeveloper/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/UlianaPythonBackendDeveloper/python-project-49/actions)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=UlianaPythonBackendDeveloper_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UlianaPythonBackendDeveloper_python-project-49)
+### Links
+
+This project was built using these tools:
+
+| Tool                                                                   | Description                                             |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |          |
+| [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
 
 ## brain_even
 ** Что нужно вычислить:** ` 1 четное число? Да или нет. 73 четное число? 25 четное число?`
