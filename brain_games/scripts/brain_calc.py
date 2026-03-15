@@ -6,10 +6,9 @@ DISCRIPTION = "What is the result of the expression?"
 
 
 def get_expression():
-    number1 = random.randint(1,25)
-    number2 = random.randint(1,25)
-    operation = random.choice(['+','-','*'])
-
+    number1 = random.randint(1, 25)
+    number2 = random.randint(1, 25)
+    operation = random.choice(['+', '-', '*'])
     question = f"{number1} {operation} {number2}"
 
     if operation == '+':
@@ -18,7 +17,9 @@ def get_expression():
         correct = number1 - number2
     else:
         correct = number1 * number2
+
     return str(correct),question
+
 
 def main():
     name = welcome_user()
