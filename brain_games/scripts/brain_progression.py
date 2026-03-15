@@ -3,6 +3,7 @@ from brain_games.cli import welcome_user
 
 DESCRIPTION = "What number is missing in the progression?"
 
+
 def generate_progression():
     length = random.randint(5,10)
     start = random.randint(1,50)
@@ -19,7 +20,8 @@ def generate_progression():
     progression[missing_idx] = ".."
 
     question = " ".join(progression)
-    return correct_answer,question
+    return correct_answer, question
+
 
 def main():
     name = welcome_user()

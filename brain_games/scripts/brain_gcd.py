@@ -9,11 +9,12 @@ def gcd(a,b):
 
 
 def get_gcd_questions():
-    number1 = random.randint(1,100)
-    number2 = random.randint(1,100)
+    number1 = random.randint(1, 100)
+    number2 = random.randint(1, 100)
     correct_answer = str(gcd(number1, number2))
     question  = f"{number1} {number2}"
-    return correct_answer,question
+    return correct_answer, question
+
 
 def main():
     name = welcome_user()

@@ -18,7 +18,7 @@ def get_expression():
     else:
         correct = number1 * number2
 
-    return str(correct),question
+    return str(correct), question
 
 
 def main():

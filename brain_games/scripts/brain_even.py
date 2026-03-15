@@ -3,7 +3,8 @@ import random
 
 from brain_games.cli import welcome_user
 
-DESCTRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def is_even(number):
     return number % 2 == 0
@@ -20,7 +21,7 @@ def main():
         correct_answer = 'yes' if is_even(question) else 'no'
 
         print(f"Question: {question}")
-        user_answer = prompt.string("Your answer: ").lower().strip()
+        user_answer = prompt.string("You answer: ").lower().strip()
 
         if user_answer ==  correct_answer:
             print("Correct!")
