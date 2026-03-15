@@ -25,7 +25,7 @@ def main():
     while correct_answers < 3:
         correct_answer, question = get_gcd_questions()
         print(f"Question: {question}")
-        user_answer  = input("You answer:")
+        user_answer = input("You answer:")
 
         if user_answer == correct_answer:
             print("Correct!")
